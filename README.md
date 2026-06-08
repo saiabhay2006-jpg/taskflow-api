@@ -1,6 +1,18 @@
-# 🚀 Task Manager — Full Stack Application
+# 🚀 TaskFlow API
 
 > A scalable REST API with React frontend, JWT authentication, role-based access control, and Swagger documentation.
+
+## Live Demo
+
+Frontend:
+https://your-vercel-domain.vercel.app
+
+Backend:
+https://taskflow-api-backend-u17h.onrender.com
+
+API Documentation:
+https://taskflow-api-backend-u17h.onrender.com/api-docs
+
 
 ## Tech Stack
 
