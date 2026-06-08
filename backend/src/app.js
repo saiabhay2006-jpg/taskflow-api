@@ -17,6 +17,11 @@ const startServer = async () => {
   // Swagger UI at /api-docs
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
+  // Welcome route at root
+  app.get('/', (req, res) => {
+    res.send('Task Manager API is running! 🚀 Visit /api-docs for documentation.');
+  });
+
   // Routes
   app.use('/api/v1/auth', require('./routes/v1/auth.routes'));
   app.use('/api/v1/tasks', protect, require('./routes/v1/task.routes'));
