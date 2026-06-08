@@ -55,6 +55,15 @@ project/
 - Node.js v18+
 - MongoDB (local or Atlas)
 
+
+### Screenshots
+
+![alt text](<Screenshot 2026-06-08 182413-1.png>)
+
+![alt text](<Screenshot 2026-06-08 182450.png>)
+
+
+
 ### 1. Backend Setup
 
 ```bash
